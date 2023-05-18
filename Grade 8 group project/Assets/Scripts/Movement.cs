@@ -7,8 +7,9 @@ public class Movement : MonoBehaviour
 {
     private float horizontal;
     private float speed = 9f;
-    private float jumpingPower = 16f;
+    private float jumpingPower =  1f;
     private bool isFacingRight = true;
+    private bool canJump = true;
 
     [SerializeField] private Rigidbody2D rB;
     [SerializeField] private Transform groundCheck;
@@ -20,21 +21,31 @@ public class Movement : MonoBehaviour
     void Update()
     {
         horizontal = Input.GetAxisRaw("Horizontal");
-        if(Input.GetButtonDown("Jump") && IsGrounded())
+       
         {
             rB.velocity = new Vector2(rB.velocity.x, jumpingPower);
         }
 
-       
 
-
-
-        if (Input.GetButtonUp("Jump") && rB.velocity.y > 0f)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
-            rB.velocity = new Vector2(rB.velocity.x, rB.velocity.y * 0.5f);
+            Jump();
+            
         }
 
+        
+
+
+
         Flip();
+    }
+    void Jump()
+    {
+        // Apply upward force to the Rigidbody component
+        rB.AddForce(Vector3.up * jumpingPower);
+
+        // Set canJump to false to prevent consecutive jumps
+        canJump = true;
     }
 
 

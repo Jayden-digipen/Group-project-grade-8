@@ -414,8 +414,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270021238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.8956, y: 4.71, z: 0}
-  m_LocalScale: {x: 24.547932, y: 1.8416035, z: 1}
+  m_LocalPosition: {x: 9.7, y: 4.8, z: 0}
+  m_LocalScale: {x: 24.547932, y: 1.6113261, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -588,12 +588,12 @@ Rigidbody2D:
   m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 3
+  m_GravityScale: 65
   m_Material: {fileID: 6200000, guid: c47a6d8518fab8246a3b2b5da144c323, type: 2}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Interpolate: 1
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!212 &2057536683
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ PolygonCollider2D:
   m_GameObject: {fileID: 2057536680}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c47a6d8518fab8246a3b2b5da144c323, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
