@@ -256,7 +256,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7761807, y: 1}
+    m_SensorSize: {x: 1.4527938, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -520,6 +520,7 @@ GameObject:
   - component: {fileID: 2057536683}
   - component: {fileID: 2057536684}
   - component: {fileID: 2057536682}
+  - component: {fileID: 2057536685}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -556,8 +557,8 @@ Rigidbody2D:
   m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 30
+  m_Material: {fileID: 6200000, guid: c47a6d8518fab8246a3b2b5da144c323, type: 2}
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -855,3 +856,20 @@ PolygonCollider2D:
       - {x: 0.09666667, y: -1.8666667}
       - {x: 0.14666668, y: -1.86}
       - {x: 0.16, y: -1.8433334}
+--- !u!114 &2057536685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057536680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c1c29df3940d54294662a830cd37a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rB: {fileID: 2057536682}
+  groundCheck: {fileID: 1539272251}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8

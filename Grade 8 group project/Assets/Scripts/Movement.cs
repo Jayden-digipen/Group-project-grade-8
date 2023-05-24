@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Experimental.GlobalIllumination;
 
 public class Movement : MonoBehaviour
 {
@@ -33,7 +34,6 @@ public class Movement : MonoBehaviour
             Debug.Log("IM JUMPING YAY");
         }
 
-        
 
 
 
@@ -46,7 +46,7 @@ public class Movement : MonoBehaviour
 
         // Set canJump to false to prevent consecutive jumps
         canJump = true;
-        Debug.Log("IM JUMPING YAY");
+       
     }
 
 
