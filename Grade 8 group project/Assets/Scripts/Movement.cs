@@ -30,7 +30,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
             Jump();
-            
+            Debug.Log("IM JUMPING YAY");
         }
 
         
@@ -46,6 +46,7 @@ public class Movement : MonoBehaviour
 
         // Set canJump to false to prevent consecutive jumps
         canJump = true;
+        Debug.Log("IM JUMPING YAY");
     }
 
 
