@@ -49,10 +49,7 @@ public class Movement : MonoBehaviour
     }
 
 
-    private bool IsGrounded()
-    {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-    }
+   
     private void FixedUpdate()
     {
         rB.velocity = new Vector2(horizontal * speed, rB.velocity.y);
