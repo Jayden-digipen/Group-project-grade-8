@@ -43,6 +43,11 @@ public class SceneLoader : MonoBehaviour
                
         
     }
+
+    public void LoadJaydenDialogueScene()
+    {
+        SceneManager.LoadScene(7);
+    }
     
 }
 
