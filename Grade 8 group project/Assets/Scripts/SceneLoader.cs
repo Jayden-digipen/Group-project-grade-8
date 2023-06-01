@@ -28,10 +28,17 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
-    public void LoadBackScene()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(4);  
+        
+            if (collision.CompareTag("Player"))
+            {
+            SceneManager.LoadScene(4);
+            }
+               
+        
     }
+    
 }
 
 

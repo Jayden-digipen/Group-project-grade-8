@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Anoop game scene 1.unity
     guid: 3b514e91a30cbab42ac5f986d8e062a3
+  - enabled: 1
+    path: Assets/Scenes/level2scene.unity
+    guid: 261a32fd23ca24a409a00be0d607a685
   m_configObjects: {}
