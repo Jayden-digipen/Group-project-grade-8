@@ -28,6 +28,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(3);
     }
 
+    public void LoadPlay2Scene()
+    {
+        SceneManager.LoadScene(5);
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
