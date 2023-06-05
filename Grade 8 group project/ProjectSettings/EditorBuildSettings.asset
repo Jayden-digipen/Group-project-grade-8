@@ -32,4 +32,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jayden Dialogue Scene.unity
     guid: eee33b8a3d0a67f42ab94006adb0db67
+  - enabled: 1
+    path: Assets/Scenes/Cutscene 1.unity
+    guid: 68a066089f61b6d41a73fcb41fdd2c81
+  - enabled: 1
+    path: Assets/Scenes/cutscene2.unity
+    guid: b21720907a8c8144db67cfedf30f76c8
+  - enabled: 1
+    path: Assets/Scenes/cutscene3.unity
+    guid: 33328c7094ef23e4598f9c3eafc8efcc
+  - enabled: 1
+    path: Assets/Scenes/cutscene4.unity
+    guid: b664f47422cff9245bc33d97991b58c6
+  - enabled: 1
+    path: Assets/Scenes/Cutscene5.unity
+    guid: 8557b9bb2a8c1ae4cb520d065932d24c
+  - enabled: 1
+    path: Assets/Scenes/cutscene6.unity
+    guid: e105556f15c018144b051fdf2429a99c
+  - enabled: 1
+    path: Assets/Scenes/cutscene 7.unity
+    guid: 44c3eb43b13488b4d977d507946ec3eb
   m_configObjects: {}

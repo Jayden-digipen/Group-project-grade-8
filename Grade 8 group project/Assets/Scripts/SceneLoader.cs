@@ -48,7 +48,40 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(7);
     }
-    
+    public void LoadCutScene1()
+    {
+        SceneManager.LoadScene(8);
+
+    }
+
+    public void LoadCutScene2()
+    {
+        SceneManager.LoadScene(9);
+    }
+
+    public void LoadCut3Scene()
+    {
+        SceneManager.LoadScene(10);
+    }
+
+    public void LoadCutScene4()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void LoadCutScene5()
+    {
+        SceneManager.LoadScene(12);
+    }
+
+    public void LoadCutScene6()
+    {
+        SceneManager.LoadScene(13);
+    }
+
+    public void LoadSSTScene7()
+    {
+        SceneManager.LoadScene(14);
+    }
 }
 
 

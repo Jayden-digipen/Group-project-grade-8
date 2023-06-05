@@ -1534,7 +1534,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7783375, y: 1}
+    m_SensorSize: {x: 1.778626, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1676,9 +1676,10 @@ MonoBehaviour:
   Dialoguepanel: {fileID: 63023787}
   Dialoguetext: {fileID: 50069906}
   dialogue:
-  - Tesing dialogue
-  - Testing dialogue 2
-  - Tesint fialogue 3
+  - You dare to come into my terrain.
+  - I suppose you have come to rescue your furry freind?
+  - You have very little time left.
+  - Leave now or die.
   contButton: {fileID: 1393928184}
   wordSpeed: 0.06
   playerIsClose: 0
