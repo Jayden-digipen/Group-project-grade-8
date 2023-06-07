@@ -82,6 +82,11 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(14);
     }
+
+    public void LoadJaydenScene()
+    {
+        SceneManager.LoadScene(14);
+    }
 }
 
 
