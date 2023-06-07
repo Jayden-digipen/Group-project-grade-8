@@ -157,13 +157,14 @@ RectTransform:
   - {fileID: 824286255}
   - {fileID: 1376211784}
   - {fileID: 186549058}
+  - {fileID: 1299223045}
   m_Father: {fileID: 589125508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000010252, y: -264}
-  m_SizeDelta: {x: 1012.2928, y: 319.9429}
+  m_AnchoredPosition: {x: 59.883, y: -264}
+  m_SizeDelta: {x: 1132.059, y: 319.943}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &170473074
 MonoBehaviour:
@@ -342,7 +343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 660.7957}
+  m_AnchoredPosition: {x: -4, y: 532}
   m_SizeDelta: {x: 512.996, y: 170.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &186549059
@@ -361,9 +362,9 @@ MonoBehaviour:
     name: Test
     sentences:
     - "Everyone fears Anubis \u2013 so much that they would call him the king of
-      the forest."
-    - "\u201CNobody, and I mean nobody, dares to enter his terrain. If you do, there
-      is no protection.\n\n"
+      the forest. "
+    - "While not many know \rwhat happens in his territory, the thought of it alone
+      is enough for nobody to try to find out. Many rumors \rare still told today.\n"
     - However, Scout the sarcastic fox doesnt buy any of it, and dares to venture
       alone. (press play)
 --- !u!114 &186549060
@@ -797,7 +798,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 170473073}
-  - {fileID: 1299223045}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1006,8 +1006,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8997, y: -36.745}
-  m_SizeDelta: {x: 1006.5, y: 246.45}
+  m_AnchoredPosition: {x: 4.4052, y: -36.746}
+  m_SizeDelta: {x: 1098.3, y: 246.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824286256
 MonoBehaviour:
@@ -1031,7 +1031,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9d81b4519dd2e9942be9cb33a1b14b3f, type: 3}
-    m_FontSize: 65
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1580,17 +1580,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299223044}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1295813397}
-  m_Father: {fileID: 589125508}
-  m_RootOrder: 1
+  m_Father: {fileID: 170473073}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25.2, y: 45.2}
+  m_AnchoredPosition: {x: 446.11707, y: -107.00003}
   m_SizeDelta: {x: 235.033, y: 105.033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1299223046
@@ -1614,7 +1614,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1639,7 +1639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 966675739}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadPlayScene
+        m_MethodName: LoadCutScene1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1887,7 +1887,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -318, y: 97}
+  m_AnchoredPosition: {x: -365, y: 91}
   m_SizeDelta: {x: 375, y: 145.0153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376211785
@@ -1923,7 +1923,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Information
+  m_Text: Backstory
 --- !u!222 &1376211786
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2117,7 +2117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 383, y: 121}
+  m_AnchoredPosition: {x: 433, y: 121}
   m_SizeDelta: {x: 241.0803, y: 72.0417}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1882122001
@@ -2141,7 +2141,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}

@@ -24,9 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/level2scene.unity
     guid: 261a32fd23ca24a409a00be0d607a685
   - enabled: 1
-    path: Assets/Scenes/Jayden's Scene.unity
-    guid: df33f6fee6ec30844bac68b3a7f96fd7
-  - enabled: 1
     path: Assets/Scenes/End Scene.unity
     guid: fedc35fb948c1194f9185d94ce6356d9
   - enabled: 1
@@ -50,7 +47,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cutscene6.unity
     guid: e105556f15c018144b051fdf2429a99c
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/cutscene 7.unity
     guid: 44c3eb43b13488b4d977d507946ec3eb
+  - enabled: 1
+    path: Assets/Scenes/Jayden's Scene.unity
+    guid: df33f6fee6ec30844bac68b3a7f96fd7
+  - enabled: 1
+    path: Assets/Scenes/TextScene.unity
+    guid: 095428644d74e7a40af10b055315b27d
+  - enabled: 1
+    path: Assets/Scenes/TEXTSCEDNE#@.unity
+    guid: e51bd4ceb71c8124d8b614cf534b4a6c
+  - enabled: 1
+    path: Assets/Scenes/Texts cene43.unity
+    guid: 1615522c24d4e134294fb893f725fe1c
   m_configObjects: {}
