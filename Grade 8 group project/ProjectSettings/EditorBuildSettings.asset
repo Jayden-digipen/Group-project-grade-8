@@ -62,4 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Texts cene43.unity
     guid: 1615522c24d4e134294fb893f725fe1c
+  - enabled: 1
+    path: Assets/Scenes/MeganLevelTwo.unity
+    guid: 956b62c47b790f342a1db40e2696ea71
+  - enabled: 1
+    path: Assets/Scenes/Level5Megan.unity
+    guid: f31cf762c6446d94abef68eb2b98ca70
   m_configObjects: {}

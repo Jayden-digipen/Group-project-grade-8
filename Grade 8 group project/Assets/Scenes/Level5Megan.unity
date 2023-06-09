@@ -4845,6 +4845,7 @@ GameObject:
   - component: {fileID: 674463520}
   - component: {fileID: 674463519}
   - component: {fileID: 674463518}
+  - component: {fileID: 674463521}
   m_Layer: 0
   m_Name: River (1)
   m_TagString: Untagged
@@ -5011,6 +5012,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &674463521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674463517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86bc7f261b11694e998687962c9a172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &677767229
 GameObject:
   m_ObjectHideFlags: 0
@@ -7185,6 +7198,7 @@ GameObject:
   - component: {fileID: 988461351}
   - component: {fileID: 988461350}
   - component: {fileID: 988461349}
+  - component: {fileID: 988461352}
   m_Layer: 0
   m_Name: River
   m_TagString: Untagged
@@ -7351,6 +7365,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &988461352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988461348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86bc7f261b11694e998687962c9a172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &990223545
 GameObject:
   m_ObjectHideFlags: 0
@@ -10014,6 +10040,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1419326451}
   - component: {fileID: 1419326450}
+  - component: {fileID: 1419326452}
+  - component: {fileID: 1419326453}
   m_Layer: 0
   m_Name: BottomlessPit
   m_TagString: Untagged
@@ -10087,6 +10115,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1419326452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419326449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a86bc7f261b11694e998687962c9a172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!70 &1419326453
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419326449}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1947819, y: -2.4512148}
+  m_Size: {x: 3.948593, y: 4.0730615}
+  m_Direction: 0
 --- !u!1 &1423125858
 GameObject:
   m_ObjectHideFlags: 0

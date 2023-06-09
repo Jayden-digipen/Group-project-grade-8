@@ -40,6 +40,7 @@ public class SceneLoader : MonoBehaviour
                
         
     }
+    
     public void LoadPlay2Scene()
     {
         SceneManager.LoadScene(5);
@@ -102,6 +103,11 @@ public class SceneLoader : MonoBehaviour
     public void LoadTesxt4Scene()
     {
         SceneManager.LoadScene(16);
+    }
+
+    public void LoadMEganScene()
+    {
+        SceneManager.LoadScene(17);
     }
 }
 
