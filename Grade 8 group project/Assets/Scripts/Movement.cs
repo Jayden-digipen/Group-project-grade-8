@@ -17,8 +17,6 @@ public class Movement : MonoBehaviour
     public float groundCheckRadius = 0.2f;
 
     [SerializeField] private Rigidbody2D rB;
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private LayerMask groundLayer;
 
    
 
@@ -31,11 +29,12 @@ public class Movement : MonoBehaviour
             rB.velocity = new Vector2(rB.velocity.x, jumpingPower);
         }
 
-
-        if (Input.GetKeyDown(KeyCode.Space) && canJump)
+        Debug.Log(rB.velocity.y);
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
-            Debug.Log("IM JUMPING YAY");
+            StartCoroutine(CanIJumpy());
+  
         }
         
 
@@ -47,33 +46,28 @@ public class Movement : MonoBehaviour
     void Jump()
     {
 
-
+        if (canJump)
+        {
         // Apply upward force to the Rigidbody component
         rB.AddForce(Vector3.up * jumpingPower);
+            canJump = false;
+        }
 
-        // Set canJump to false to prevent consecutive jumps
-        canJump = false;
 
-        StartCoroutine(Time());
 
     }
 
-    IEnumerator Time()
+
+    IEnumerator CanIJumpy()
     {
+        canJump = false;
         yield return new WaitForSeconds(jumpTime);
         canJump = true;
-
-        
     }
-
 
     private bool isGrounded;
 
-    
-    
-        
-    
-
+ 
 
 
     private void FixedUpdate()
