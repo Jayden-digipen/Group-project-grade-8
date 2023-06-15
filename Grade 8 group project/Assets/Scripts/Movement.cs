@@ -12,13 +12,18 @@ public class Movement : MonoBehaviour
     private bool isFacingRight = true;
     private bool canJump = true;
     public float jumpForce = 5f;
-    float jumpTime = 0.5f;
+    float jumpTime = 0.45f;
    
     public float groundCheckRadius = 0.2f;
 
     [SerializeField] private Rigidbody2D rB;
 
-   
+    private Animator playerAnimation;
+
+    private void Start()
+    {
+        playerAnimation = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -36,9 +41,8 @@ public class Movement : MonoBehaviour
             StartCoroutine(CanIJumpy());
   
         }
-        
 
-
+        playerAnimation.SetFloat("Speed", Mathf.Abs(rB.velocity.x));
 
         Flip();
     }
@@ -77,7 +81,7 @@ public class Movement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal > 0f || !isFacingRight && horizontal < 0f)
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
             isFacingRight = !isFacingRight;
             Vector3 localScale = transform.localScale;
