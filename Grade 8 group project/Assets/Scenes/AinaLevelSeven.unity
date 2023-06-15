@@ -5432,9 +5432,17 @@ PrefabInstance:
       value: -1.8433334
       objectReference: {fileID: 0}
     - target: {fileID: 1343204399193233555, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
+      propertyPath: jumpForce
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343204399193233555, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
       propertyPath: groundCheck
       value: 
       objectReference: {fileID: 1896353698}
+    - target: {fileID: 1343204399193233556, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
+      propertyPath: m_GravityScale
+      value: 55
+      objectReference: {fileID: 0}
     - target: {fileID: 1343204399193233558, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
       propertyPath: m_Name
       value: Player
