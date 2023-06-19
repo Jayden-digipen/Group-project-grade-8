@@ -226,6 +226,8 @@ MonoBehaviour:
   playerHealth: {fileID: 1023100946}
   health: 0
   maxHealth: 10
+  playerdeathSFX: {fileID: 0}
+  playerdeathSFXVolume: 0.75
 --- !u!61 &33997363
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1271,6 +1273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 33997360}
   damage: 2
+  enemydeathSFX: {fileID: 0}
+  enemydeathSFXVolume: 0.75
 --- !u!70 &995087729
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -2445,7 +2449,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 5b5953981ecf08e4ba1a09bec8505f4a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c3c5f99e84b137f44924faa8c8c3ebe0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2464,8 +2468,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888035059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 143.3776, y: 4.33, z: 10}
-  m_LocalScale: {x: 16.739721, y: 1, z: 1}
+  m_LocalPosition: {x: 62.929, y: 11.2897, z: 10}
+  m_LocalScale: {x: 25.205837, y: 5.2299, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
