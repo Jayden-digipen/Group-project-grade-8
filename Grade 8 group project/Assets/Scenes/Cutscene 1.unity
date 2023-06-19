@@ -440,6 +440,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8649706950095980772, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8649706950095980772, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 8649706950095980772, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 8649706950095980774, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -547,6 +559,14 @@ PrefabInstance:
     - target: {fileID: 8649706950377059947, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8649706950946864803, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 865
+      objectReference: {fileID: 0}
+    - target: {fileID: 8649706950946864803, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -513
       objectReference: {fileID: 0}
     - target: {fileID: 8649706950946864804, guid: f1f6f217168e7f34b9661807beec682e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
