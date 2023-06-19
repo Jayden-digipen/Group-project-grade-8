@@ -1456,11 +1456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8295913708851782787, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.57
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 8295913708851782787, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: 1.6353844
       objectReference: {fileID: 0}
     - target: {fileID: 8295913708851782787, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1497,6 +1497,10 @@ PrefabInstance:
     - target: {fileID: 8295913708851782797, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
       propertyPath: m_Name
       value: CM vcam1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8295913709536808974, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
+      propertyPath: m_ScreenY
+      value: 0.62253845
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6c68667734832c40a6ecd5b2e192b67, type: 3}
@@ -4942,11 +4946,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2630532803139911923, guid: d40a4e3bba3a3d44f8b44eb6f6999750, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.57
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 2630532803139911923, guid: d40a4e3bba3a3d44f8b44eb6f6999750, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: 1.6353844
       objectReference: {fileID: 0}
     - target: {fileID: 2630532803139911923, guid: d40a4e3bba3a3d44f8b44eb6f6999750, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5149,7 +5153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1343204399193233559, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.57
+      value: -2.31
       objectReference: {fileID: 0}
     - target: {fileID: 1343204399193233559, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5194,6 +5198,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1343204399193233559, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
   m_PrefabInstance: {fileID: 1794290849}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1794290851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1343204399193233558, guid: b9c5e2d163b823141b102d65ec31b210, type: 3}
+  m_PrefabInstance: {fileID: 1794290849}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1794290852
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794290851}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 36eb79be6d2d8f44a87a44963a4eeee0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1809551134
 GameObject:
   m_ObjectHideFlags: 0

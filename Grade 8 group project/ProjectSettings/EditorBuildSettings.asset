@@ -66,6 +66,21 @@ EditorBuildSettings:
     path: Assets/Scenes/MeganLevelTwo.unity
     guid: 956b62c47b790f342a1db40e2696ea71
   - enabled: 1
+    path: Assets/Scenes/AinaLevelThree.unity
+    guid: 71ce80eba9145604b89fe7216c08997d
+  - enabled: 1
+    path: Assets/Scenes/AinaLevelFour.unity
+    guid: b2be3b53e8474264fabf2646eb36b3ce
+  - enabled: 1
     path: Assets/Scenes/Level5Megan.unity
     guid: f31cf762c6446d94abef68eb2b98ca70
+  - enabled: 1
+    path: Assets/Scenes/AinaLevelSix.unity
+    guid: 02a797d532a7c784da04a39d42ecb3ff
+  - enabled: 1
+    path: Assets/Scenes/AinaLevelSeven.unity
+    guid: 6a1ff0b2dde6e2b478b18dd432155093
+  - enabled: 1
+    path: Assets/Scenes/AinaLevelEight.unity
+    guid: 77efecc7494d68a4f8633e2c6b8fdcc8
   m_configObjects: {}

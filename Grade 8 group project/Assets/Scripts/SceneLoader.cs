@@ -40,11 +40,7 @@ public class SceneLoader : MonoBehaviour
                
         
     }
-    
-    public void LoadPlay2Scene()
-    {
-        SceneManager.LoadScene(5);
-    }
+   
 
     public void LoadJaydenDialogueScene()
     {
@@ -105,19 +101,47 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(16);
     }
 
-    public void LoadMEganScene()
+    // Load Levels.
+
+    public void LoadLevelOne()
     {
-        SceneManager.LoadScene(17);
+        SceneManager.LoadScene("level2scene");
     }
 
-
-  
-
-    public void LoadNextScene()
+    public void LoadLevelTwo()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("MeganLevelTwo");
     }
 
+    public void LoadLevelThree()
+    {
+        SceneManager.LoadScene("AinaLevelThree");
+    }
+
+    public void LoadLevelFour()
+    {
+        SceneManager.LoadScene("AinaLevelFour");
+    }
+
+    public void LoadLevelFive()
+    {
+        SceneManager.LoadScene("Level5Megan");
+    }
+
+    public void LoadLevelSix()
+    {
+        SceneManager.LoadScene("AinaLevelSix");
+    }
+
+    public void LoadLevelSeven()
+    {
+        SceneManager.LoadScene("AinaLevelSeven");
+    }
+
+    public void LoadLevelEight()
+    {
+        SceneManager.LoadScene("AinaLevelEight");
+    }
 }
 
 
