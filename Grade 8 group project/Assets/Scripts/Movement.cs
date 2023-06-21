@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();
-            StartCoroutine(CanIJumpy());
+           
   
         }
 
@@ -55,6 +55,7 @@ public class Movement : MonoBehaviour
         // Apply upward force to the Rigidbody component
         rB.AddForce(Vector3.up * jumpingPower);
             canJump = false;
+            StartCoroutine(CanIJumpy());
         }
 
 
@@ -64,9 +65,10 @@ public class Movement : MonoBehaviour
 
     IEnumerator CanIJumpy()
     {
-        canJump = false;
+       
         yield return new WaitForSeconds(jumpTime);
-        canJump = true;
+        canJump=true;
+       
     }
 
     private bool isGrounded;

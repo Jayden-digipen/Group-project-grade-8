@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class sceneloader2 : MonoBehaviour
+public class dsdsdsads : MonoBehaviour
 {
-    // Start is called before the first frame update
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(18);
+            SceneManager.LoadScene(24);
         }
     }
 }
-    
-    

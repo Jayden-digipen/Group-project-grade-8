@@ -359,7 +359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Test
+    name: Backstory
     sentences:
     - "Everyone fears Anubis \u2013 so much that they would call him the king of
       the forest. "
@@ -1031,7 +1031,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9d81b4519dd2e9942be9cb33a1b14b3f, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
