@@ -33,8 +33,7 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
 
-            AudioSource.PlayClipAtPoint(playerdeathSFX, Camera.main.transform.position, playerdeathSFXVolume);
-            Destroy(gameObject);
+            SceneManager.LoadScene(4);
 
         }
     }

@@ -16,15 +16,15 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            
-            playerHealth.TakeDamage(damage);
-            AudioSource.PlayClipAtPoint(enemydeathSFX, Camera.main.transform.position, enemydeathSFXVolume);
-            GetComponent<CapsuleCollider2D>().enabled = false;
-            GetComponent<SpriteRenderer>().enabled = false;
+            playerHealth.TakeDamage(2);
         }
     }
-
 }
+
+
+
+
+
 
 
 
