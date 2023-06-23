@@ -10,7 +10,7 @@ public class sceneloader2 : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(18);
         }
     }
 }

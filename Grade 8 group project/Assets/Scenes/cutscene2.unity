@@ -525,7 +525,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1803304975}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadText2Scene
+        m_MethodName: LoadCut3Scene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

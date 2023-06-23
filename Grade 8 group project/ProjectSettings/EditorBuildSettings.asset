@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/level2scene.unity
     guid: 261a32fd23ca24a409a00be0d607a685
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/End Scene.unity
     guid: fedc35fb948c1194f9185d94ce6356d9
   - enabled: 1
@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cutscene6.unity
     guid: e105556f15c018144b051fdf2429a99c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/cutscene 7.unity
     guid: 44c3eb43b13488b4d977d507946ec3eb
   - enabled: 1
@@ -63,6 +63,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Texts cene43.unity
     guid: 1615522c24d4e134294fb893f725fe1c
   - enabled: 1
+    path: Assets/Scenes/Suspicous.unity
+    guid: 09c0b5836c92c394b9017668475287a6
+  - enabled: 0
     path: Assets/Scenes/MeganLevelTwo.unity
     guid: 956b62c47b790f342a1db40e2696ea71
   - enabled: 1
@@ -83,4 +86,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AinaLevelEight.unity
     guid: 77efecc7494d68a4f8633e2c6b8fdcc8
+  - enabled: 1
+    path: Assets/Scenes/BossFight.unity
+    guid: c95e93aeab99f0f4bacc65f5c3e16b53
+  - enabled: 1
+    path: Assets/Scenes/WINSCENE.unity
+    guid: 143b78571e69e2743b883dd57149968c
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: d9fdfbb2f39726943a1cade6e371bd15
   m_configObjects: {}

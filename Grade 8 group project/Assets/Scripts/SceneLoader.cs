@@ -44,41 +44,41 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadJaydenDialogueScene()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
     }
     public void LoadCutScene1()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(6);
 
     }
 
     public void LoadCutScene2()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(7);
     }
 
     public void LoadCut3Scene()
     {
-        SceneManager.LoadScene(9);
+        SceneManager.LoadScene(8);
     }
 
     public void LoadCutScene4()
     {
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(9);
     }
     public void LoadCutScene5()
     {
-        SceneManager.LoadScene(11);
+        SceneManager.LoadScene(10);
     }
 
     public void LoadCutScene6()
     {
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(11);
     }
 
     public void LoadSSTScene7()
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(12);
     }
 
     public void LoadJaydenScene()
@@ -88,17 +88,17 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadTExtScene()
     {
-        SceneManager.LoadScene(14);
+        SceneManager.LoadScene(15);
     }
 
     public void LoadText2Scene()
     {
-        SceneManager.LoadScene(15);
+        SceneManager.LoadScene(16);
     }
 
     public void LoadTesxt4Scene()
     {
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(17);
     }
 
     // Load Levels.
