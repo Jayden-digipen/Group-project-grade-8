@@ -2215,7 +2215,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 925787df5c00b544b91cadf8984511b8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2877,7 +2877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &319670816
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6196,7 +6196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &616420060
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6719,7 +6719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!60 &712177227
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7431,7 +7431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!60 &780964881
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -13728,7 +13728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1399979910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15975,7 +15975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!60 &1665781774
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17291,7 +17291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!60 &1828595650
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -17453,7 +17453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!60 &1833183063
 PolygonCollider2D:
   m_ObjectHideFlags: 0

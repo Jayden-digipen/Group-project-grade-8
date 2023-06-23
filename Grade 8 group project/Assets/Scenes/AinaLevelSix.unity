@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &96811087
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -871,7 +871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &107910889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2361,7 +2361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &356336967
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3265,7 +3265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &403269523
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &415538039
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5706,7 +5706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &747817275
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6219,7 +6219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &853008427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6464,7 +6464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &861813215
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7596,7 +7596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1050087521
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8321,7 +8321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1159509033
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8649,7 +8649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1195919747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9206,7 +9206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1265964136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10209,7 +10209,7 @@ MonoBehaviour:
   playerHealth3: {fileID: 104255590}
   damage: 2
   enemydeathSFX3: {fileID: 8300000, guid: 588a08d6fc4f0e64c8ec2c77ea7de0ed, type: 3}
-  enemydeathSFXVolume3: 0.75
+  enemydeathSFXVolume3: 1
 --- !u!1 &1402538123
 GameObject:
   m_ObjectHideFlags: 0
@@ -10603,7 +10603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1422660619
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10680,7 +10680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1429340996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11817,7 +11817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1571672563
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12023,7 +12023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1585059109
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12891,7 +12891,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1708411944
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13173,7 +13173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1739417256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13378,7 +13378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &1792949488
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14146,7 +14146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &1842010792
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15649,7 +15649,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 925787df5c00b544b91cadf8984511b8, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -16012,7 +16012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!61 &2145629872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16134,7 +16134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerdeathSFX: {fileID: 8300000, guid: 0f8324558034f504fa26c47e358ec9ac, type: 3}
-  playerdeathSFXVolume: 0.75
+  playerdeathSFXVolume: 1
 --- !u!212 &2146852321
 SpriteRenderer:
   m_ObjectHideFlags: 0
