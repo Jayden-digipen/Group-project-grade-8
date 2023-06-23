@@ -7,13 +7,24 @@ using UnityEngine.SceneManagement;
 public class Sceneloader5555555 : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider2D other)
+
+
+
+    [SerializeField] AudioClip playerdeathSFX;
+    [SerializeField][Range(0, 1)] float playerdeathSFXVolume = 0.75f;
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject);
-            SceneManager.LoadScene(24);
+            StartCoroutine(Death());
         }
     }
 
+    IEnumerator Death()
+    {
+        AudioSource.PlayClipAtPoint(playerdeathSFX, transform.position, playerdeathSFXVolume);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(14);
+    }
 }

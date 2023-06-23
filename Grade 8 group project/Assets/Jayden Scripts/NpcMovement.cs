@@ -11,8 +11,8 @@ public class NpcMovement : MonoBehaviour
     float moveSpeed = 2f;
 
     int waypointIndex = 0;
-    private bool isFacingRight = true;
-    private float horizontal;
+    private bool facingRight = true;
+  
 
     void Start()
     {
@@ -31,22 +31,22 @@ public class NpcMovement : MonoBehaviour
         if (transform.position == waypoints[waypointIndex].transform.position)
         {
             waypointIndex += 1;
+            Flip();
         }
 
         if(waypointIndex == waypoints.Length)
-        
+        {
             waypointIndex = 0;
+            
+        }
+        
+            
         
     }
 
     private void Flip()
     {
-        if (isFacingRight && horizontal > 0f || !isFacingRight && horizontal < 0f)
-        {
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
-        }
+      facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 }

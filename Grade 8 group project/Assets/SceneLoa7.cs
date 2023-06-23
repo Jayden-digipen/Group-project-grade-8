@@ -9,7 +9,7 @@ public class SceneLoa7 : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(21);
+            SceneManager.LoadScene(17);
         }
     }
 }

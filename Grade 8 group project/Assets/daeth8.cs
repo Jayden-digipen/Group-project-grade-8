@@ -5,11 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class daeth8 : MonoBehaviour
 {
+
+    [SerializeField] AudioClip playerdeathSFX;
+    [SerializeField][Range(0, 1)] float playerdeathSFXVolume = 0.75f;
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(22);
+            StartCoroutine(Death());
         }
     }
+
+    IEnumerator Death()
+    {
+        AudioSource.PlayClipAtPoint(playerdeathSFX, transform.position, playerdeathSFXVolume);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(22);
+    }
+
 }

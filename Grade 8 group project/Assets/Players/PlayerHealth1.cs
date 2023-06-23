@@ -32,11 +32,16 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if (health <= 0)
         {
-
-            SceneManager.LoadScene(4);
+            StartCoroutine(Death8());
 
         }
     }
 
+    private IEnumerator Death8()
+    {
+        AudioSource.PlayClipAtPoint(playerdeathSFX, transform.position, playerdeathSFXVolume);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(18);
+    }
    
 }

@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
             rB.velocity = new Vector2(rB.velocity.x, jumpingPower);
         }
 
-        Debug.Log(rB.velocity.y);
+        
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jump();

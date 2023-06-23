@@ -16,8 +16,15 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            playerHealth.TakeDamage(2);
+            StartCoroutine(Dmg());
         }
+    }
+
+    IEnumerator Dmg()
+    {
+        AudioSource.PlayClipAtPoint(enemydeathSFX, transform.position);
+        yield return new WaitForSeconds(0.5f);
+        playerHealth.TakeDamage(2);
     }
 }
 
